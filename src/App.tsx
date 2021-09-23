@@ -1,6 +1,8 @@
+import { Home } from './pages/Home';
+
 function App() {
   return (
-    <h1>Maick Souza</h1>
+    <Home />
   );
 }
 
