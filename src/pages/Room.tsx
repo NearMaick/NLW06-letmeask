@@ -81,9 +81,10 @@ export function Room() {
               <span>Para enviar uma pergunta, <button>faça seu login</button>.</span>
             ) }
             <Button type="submit" disabled={!user}>Enviar Pergunta</Button>
-          </div>
+          </div>          
+        </form>
 
-          <div className="question-list">
+        <div className="question-list">
             {questions.map(question => {
               return (
                 <Question
@@ -94,7 +95,6 @@ export function Room() {
               );
             })}
           </div>
-        </form>
       </main>
     </div>
   );
